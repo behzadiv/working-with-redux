@@ -6,15 +6,17 @@ import HookCakeContainer from "./components/HookCakeContainer";
 import IceCreamContainer from "./components/IceCreamContainer";
 import HookWineContainer from "./components/HookWineContainer";
 import PayloadWine from "./components/PayloadWine";
+import UserContainer from "./components/UserContainer";
 function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <CakeContainer />
+        {/* <CakeContainer />
         <HookCakeContainer/>
         <IceCreamContainer/>
         <HookWineContainer/>
-        <PayloadWine/>
+        <PayloadWine/> */}
+        <UserContainer/>
       </div>
     </Provider>
   );
